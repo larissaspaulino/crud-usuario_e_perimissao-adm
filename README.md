@@ -3,7 +3,8 @@
 
 API REST desenvolvida em Node e Express, com autenticação JWT e rotas com permissão de usuário.
 
-#### Bibliotecas utilizadas:
+#### Dependências utilizadas:
+- express
 - jsonwebtoken
 - bcryptjs
 - uuid
