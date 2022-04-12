@@ -14,7 +14,7 @@ const userLoginService = ({ email, password }) => {
     if (!passwordMatch) {
         throw new Error("Wrong email/password")
     }
-
+                        // poderia ter passado user.isAdm no primeiro objeto
     const token = jwt.sign({ email }, "8422dbd9f4d4bbc30b6b4d57605da553", { expiresIn: "24h", subject: user.id})
     
     return { token }

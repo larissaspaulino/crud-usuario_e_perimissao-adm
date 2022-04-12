@@ -20,7 +20,7 @@ const ensureAuthToken = (request, response, next) => {
 
     request.user = {
       id: sub,
-    }
+    } //poderia ter passado user.isAdm aqui - ou seja se o usuário é adm ou não
   })
 
   next()
