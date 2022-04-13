@@ -3,6 +3,10 @@
 
 API REST desenvolvida em Node e Express, com autenticação JWT e rotas com permissão de usuário.
 
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/><space><space>
+<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/><space><space>
+<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white"/><space><space>
+	
 #### Dependências utilizadas:
 - express
 - jsonwebtoken
