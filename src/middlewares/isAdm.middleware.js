@@ -14,7 +14,7 @@ const isAdmMiddleware = (request, response, next) => {
     if (idRequestingUser !== idUserBeingRequested && !user.isAdm) {
       return response.status(401).json({ message: 'Unauthorized' })
     } else {
-      next()
+      return next()
     }
   }
 
